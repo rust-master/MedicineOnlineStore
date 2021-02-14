@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "71720309685",
+    "project_id": "pharmax-1a6f8",
+    "storage_bucket": "pharmax-1a6f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71720309685:android:42e62f41f5042dfb5b7ffc",
+        "android_client_info": {
+          "package_name": "com.microitindustry.medicineonlinestore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "71720309685-4e18vg2vaelhc6qpql07k3825s3qo98k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCskMtgcTag6afYfd5hdqm5vevPSWOXCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "71720309685-4e18vg2vaelhc6qpql07k3825s3qo98k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

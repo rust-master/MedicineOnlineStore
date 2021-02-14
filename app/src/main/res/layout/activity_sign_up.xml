@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".SignUp">
+    <View
+        android:id="@+id/v1"
+        android:layout_alignParentTop="true"
+        android:background="@color/complementaryColor"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <View
+        android:id="@+id/v2"
+        android:layout_below="@+id/v1"
+        android:layout_width="match_parent"
+        android:background="@drawable/ic_wave"
+        android:layout_height="70dp"/>
+    <TextView
+        android:layout_alignTop="@+id/v2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="Register Account"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ScrollView
+        android:id="@+id/sc1"
+        android:layout_below="@id/v2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Name"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColorHint="@color/mainColor"
+                app:hintTextColor="@color/mainColor"
+                app:startIconDrawable="@drawable/ic_identity_24dp"
+                app:startIconTint="@color/mainColor"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:inputType="text"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Email"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColorHint="@color/mainColor"
+                app:hintTextColor="@color/mainColor"
+                app:startIconDrawable="@drawable/ic_baseline_email_24"
+                app:startIconTint="@color/mainColor"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:inputType="textEmailAddress"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Password"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColorHint="@color/mainColor"
+                app:hintTextColor="@color/mainColor"
+                app:startIconDrawable="@drawable/ic_key_24dp"
+                app:startIconTint="@color/mainColor"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:inputType="textPassword"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Phone"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColorHint="@color/mainColor"
+                app:hintTextColor="@color/mainColor"
+                app:startIconDrawable="@drawable/ic_baseline_phone_24"
+                app:startIconTint="@color/mainColor"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtPhoneNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:inputType="phone"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:hint="Address"
+                android:lines="1"
+                android:maxLines="1"
+                android:minLines="1"
+                android:textColorHint="@color/mainColor"
+                app:hintTextColor="@color/mainColor"
+                app:startIconDrawable="@drawable/ic_baseline_location_on_24"
+                app:startIconTint="@color/mainColor"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_regular"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:minLines="1"
+                    android:inputType="text"
+                    android:textColor="@color/mainColor"
+                    android:textSize="18sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/registerBtnCard"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardBackgroundColor="@color/complementaryColor"
+                app:cardCornerRadius="25dp"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:gravity="center"
+                    android:text="Register"
+                    android:textColor="#fff"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>

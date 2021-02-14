@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemsLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    app:cardElevation="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_margin="5dp"
+            android:id="@+id/itemImage"
+            android:scaleType="centerCrop"
+            android:src="@drawable/disprin"
+            android:layout_width="130dp"
+            android:layout_height="110dp"/>
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_margin="10dp"
+            android:layout_toRightOf="@id/itemImage"
+            android:textSize="18sp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/mainColor"
+            android:text="Item Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_toRightOf="@id/itemImage"
+            android:id="@+id/itemDescribe"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/itemTitle"
+            android:textSize="15sp"
+            android:maxLines="2"
+            android:fontFamily="@font/ubuntu_regular"
+            android:textColor="@color/black"
+            android:text="Item Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_toLeftOf="@id/itemPrice"
+            android:id="@+id/tempp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp"
+            android:layout_below="@+id/itemDescribe"
+            android:textSize="20sp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/complementaryColor"
+            android:text="Price:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/itemPrice"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/itemDescribe"
+            android:textSize="20sp"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@color/black"
+            android:text="Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

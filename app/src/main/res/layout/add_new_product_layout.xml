@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:fontFamily="@font/ubuntu_regular"
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/colorPrimary"
+            android:autofillHints="0988123344"
+            android:hint="Name"
+            android:inputType="text"
+            android:textSize="30sp"
+            android:text=""
+            android:textColor="@color/mainColor"
+            android:textColorHint="@color/mainColor"
+
+            />
+        <EditText
+
+            android:id="@+id/edtDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/colorPrimary"
+            android:autofillHints="0988123344"
+            android:hint="Description"
+            android:fontFamily="@font/ubuntu_regular"
+            android:inputType="text"
+            android:textSize="25sp"
+            android:text=""
+            android:textColor="@color/mainColor"
+            android:textColorHint="@color/mainColor"
+
+            />
+        <EditText
+            android:id="@+id/edtPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/colorPrimary"
+            android:autofillHints="0988123344"
+            android:hint="Price"
+            android:fontFamily="@font/ubuntu_regular"
+            android:inputType="numberDecimal"
+            android:textSize="30sp"
+            android:text=""
+            android:textColor="@color/mainColor"
+            android:textColorHint="@color/mainColor"
+
+            />
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/complementaryColor"
+                android:text="Select"
+                android:textColor="@android:color/white"
+                />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:background="@color/mainColor"
+                android:text="Upload"
+                android:textColor="@android:color/white"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

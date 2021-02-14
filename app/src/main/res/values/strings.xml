@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MedicineOnlineStore</string>
+    <string name="title_activity_home">Home</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="GPSAlertDialogMessage">Kindly Turn On The Location</string>
+    <string name="GPSAlertDialogTitle">GPS Setting</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_profile">Profile</string>
+    <string name="action_logout">Logout</string>
+</resources>

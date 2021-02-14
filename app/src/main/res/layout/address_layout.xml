@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:fontFamily="@font/ubuntu_regular"
+            android:id="@+id/edtShippingAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorLink="@color/colorPrimary"
+            android:autofillHints="0988123344"
+            android:hint="Shipping Address"
+            android:inputType="text"
+            android:textSize="22sp"
+            android:text=""
+            android:textColor="@color/mainColor"
+            android:textColorHint="@color/mainColor"
+            />
+
+        <TextView
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="20sp"
+            android:text="Delivery Method"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rdShipToAddress"
+                android:text="Ship To This Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdHomeAddress"
+                android:text="Home Address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+        <TextView
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="20sp"
+            android:text="Payment Method"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <RadioGroup
+            android:id="@+id/rd2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/rdCashOnDelivery"
+                android:text="Cash On Delivery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
