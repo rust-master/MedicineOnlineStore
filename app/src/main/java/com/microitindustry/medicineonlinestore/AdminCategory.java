@@ -57,7 +57,7 @@ public class AdminCategory extends AppCompatActivity {
     FirebaseRecyclerAdapter<CategoryModel, CategoryAdminViewHolder> adapter;
 
     FirebaseStorage storage;
-    StorageReference storageReference;
+    StorageReference  storageReference;
 
     EditText edtName,edtDesc;
     Button btnUpload,btnSelect;
